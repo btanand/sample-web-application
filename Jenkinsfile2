@@ -19,7 +19,7 @@ pipeline{
                     		echo "M2_HOME = ${M2_HOME}"
                 	    '''
            		 }
-
+		}
               stage('maven build'){
                   steps{
                       script{
